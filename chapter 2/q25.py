@@ -1,0 +1,15 @@
+x,y = eval(input("Enter the coordinates of center (x,y) : "))
+width,height = eval(input("Enter the width and height : "))
+
+import turtle 
+turtle.penup()
+turtle.goto(x-width/2,y-height/2)
+turtle.pendown()
+turtle.forward(width)
+turtle.left(90)
+turtle.forward(height)
+turtle.left(90)
+turtle.forward(width)
+turtle.left(90)
+turtle.forward(height)
+turtle.done()
