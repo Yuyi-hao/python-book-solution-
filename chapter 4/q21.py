@@ -27,7 +27,7 @@ else:
         dayOfWeek = 'Thursday'
     elif h> 4 and h <= 5.5:
         dayOfWeek = 'Friday'
-    elif h >5.5 and h <= 6:
+    elif h >5.5:
         dayOfWeek = 'Saturday' 
 
     print("Day of the week is {}".format(dayOfWeek))
